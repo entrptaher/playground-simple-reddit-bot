@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Test 'em",
+  "description": "Tests a concept",
+  "version": "1.0",
+
+  "permissions": ["tabs", "<all_urls>"],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {}
+}
